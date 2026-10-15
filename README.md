@@ -83,6 +83,17 @@ Compare peak detections before and after filtering. Differences in detected peak
 - Notch filtering substantially reduced the prominent component near 20 Hz in the observed spectrum.
 - Peak-detection results differed before and after filtering, so further validation is needed before claiming an improvement in measurement accuracy.
 
+## Results and Visualizations
+
+### Raw PPG Waveforms
+![Raw PPG waveforms](outputs/plots/raw_waveforms.png)
+
+### Power Spectral Density
+![Power spectra](outputs/plots/power_spectra.png)
+
+### S4 Filtering Comparison
+![S4 before and after filtering](outputs/plots/s4_before_after.png)
+
 ## Limitations
 
 - The physical source of the narrowband component cannot be established from the spectrum alone.
